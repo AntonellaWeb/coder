@@ -1,0 +1,52 @@
+css/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header {
+    display: flexbox;
+}
+header nav {
+    display: flex;
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid #ff6347;
+    position: static;
+    justify-content: space-around;
+    align-items: center;
+    font-size: larger;
+    list-style: none;
+    text-transform: uppercase;
+    text-decoration: double;
+    color: blue;
+
+
+}
+header nav ul {
+    list-style: none;
+}
+main {
+    font-style: oblique;
+   list-style-position: outside;
+   text-align: justify;
+   font-size: x-large;
+}
+footer {
+    background-color: aqua;
+}
+footer img {
+    max-width: 20%;
+    position: relative;
+    left: 500px;
+}
+h1 {
+    background-color: blueviolet;
+    text-align: center;
+}
+h2 { 
+    font-size: medium;
+}
