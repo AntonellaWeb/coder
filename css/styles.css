@@ -1,12 +1,11 @@
 .encabezado {
   font-family: Monaco, Haettenschweiler, "Arial Narrow Bold", serif;
-  font-size: 35px;
+  font-size: 30px;
 }
 
-.buscador {
-  align-items: end;
+.navbar {
+  background-color: beige;
 }
-
 .logo {
   width: 100px;
 }
@@ -50,12 +49,25 @@ footer {
   background-image: url(letra.jpeg);
   background-attachment: fixed;
 }
-
+.subtitulos {
+  position: relative;
+  padding: 40px;
+  margin: 20px;
+  font-family: "montserrat", serif;
+  font-family: "lobster", cursive;
+  font-weight: bolder;
+  text-align: start;
+  align-items:start
+  font-size: 80px;
+  animation: 
+}
 .texto {
   margin-top: 10px;
   align-items: center;
   text-align: center;
   font-family: Monaco, Haettenschweiler, "Arial Narrow Bold", serif;
+  list-style: none;
+  font-size: 30px;
 }
 
 #casas {
@@ -79,23 +91,58 @@ footer {
 
 @media (max-width: 480px) {
   .encabezado {
-    font-size: 18px;
+    font-size: 100%;
   }
   .logo {
     width: 60px;
   }
   .titulo {
-    font-size: 80px;
+    font-size: 200%;
+  }
+  .subtitulos {
+    font-size: 200%
   }
   .texto {
     font-weight: bolder;
-    font-size: 120%;
+    font-size: 100%;
   }
   #casas {
     align-items: center;
     text-align: center;
     width: 100%
   }
+}
+
+
+.TituloCosas {
+  font-weight: bolder;
+}
+.Planner {
+  margin-top: 10px;
+  align-items: start;
+  text-align: start;
+  font-family: Monaco, Haettenschweiler, "Arial Narrow Bold", serif;
+  list-style: none;
+}
+.SketchUpFree {
+  margin-top: 10px;
+  align-items: start;
+  text-align: start;
+  font-family: Monaco, Haettenschweiler, "Arial Narrow Bold", serif;
+  list-style: none;
+}
+.HomeByMe {
+  margin-top: 10px;
+  align-items: start;
+  text-align: start;
+  font-family: Monaco, Haettenschweiler, "Arial Narrow Bold", serif;
+  list-style: none;
+}
+.Paginas  {
+  border-radius: 3%;
+  box-shadow: 0 10px 10px 0;
+  margin-left: 25%;
+  margin-top: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */
