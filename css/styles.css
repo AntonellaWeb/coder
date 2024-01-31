@@ -1,0 +1,101 @@
+.encabezado {
+  font-family: Monaco, Haettenschweiler, "Arial Narrow Bold", serif;
+  font-size: 35px;
+}
+
+.buscador {
+  align-items: end;
+}
+
+.logo {
+  width: 100px;
+}
+
+body {
+  background-image: url(fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+footer main {
+  display: flexbox;
+  font-style: oblique;
+  list-style-position: outside;
+  text-align: justify;
+  font-size: x-large;
+  margin: 1%;
+}
+
+footer {
+  box-sizing: border-box;
+  margin-top: 50px;
+  margin-right: 20px;
+  display: flex;
+  position: relative;
+}
+
+.titulo {
+  position: relative;
+  padding: 40px;
+  margin: 20px;
+  font-family: "montserrat", serif;
+  font-family: "lobster", cursive;
+  font-weight: bolder;
+  text-align: center;
+  align-items: center;
+  font-size: 120px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: url(letra.jpeg);
+  background-attachment: fixed;
+}
+
+.texto {
+  margin-top: 10px;
+  align-items: center;
+  text-align: center;
+  font-family: Monaco, Haettenschweiler, "Arial Narrow Bold", serif;
+}
+
+#casas {
+  width: 100%;
+  display: flex;
+}
+
+.pie {
+  font-family: Monaco, Haettenschweiler, "Arial Narrow Bold", serif;
+  text-align: end;
+  align-items: end;
+  margin-right: 10%;
+  font-size: medium;
+}
+
+.pie ul {
+  font-size: small;
+  list-style: none;
+  align-items: end;
+}
+
+@media (max-width: 480px) {
+  .encabezado {
+    font-size: 18px;
+  }
+  .logo {
+    width: 60px;
+  }
+  .titulo {
+    font-size: 80px;
+  }
+  .texto {
+    font-weight: bolder;
+    font-size: 120%;
+  }
+  #casas {
+    align-items: center;
+    text-align: center;
+    width: 100%
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

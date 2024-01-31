@@ -1,15 +1,21 @@
 .encabezado{
     font-family: Monaco, Haettenschweiler, 'Arial Narrow Bold', serif;
-    font-size: 30px
+    font-size:
 }
 .buscador {
     align-items: end;
 }
+.logo {
+    width: %;
+}
 body { 
+    display: flex;
+    margin: 0;
     background-image: url(fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    box-sizing: border-box;
 }
 footer main {
     display: flexbox;
@@ -63,7 +69,9 @@ footer {
     list-style: none;
     align-items: end;
 }
-@media screen {
-    
-    
+
+@media (max-width:600px){
+    .titulo {
+        font-size: 50px;
+    }
 }
