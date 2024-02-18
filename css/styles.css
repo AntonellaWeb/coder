@@ -4,39 +4,11 @@
 }
 
 .navbar {
-  $navbar-padding-y:                  $spacer * .5;
-$navbar-padding-x:                  null;
-
-$navbar-nav-link-padding-x:         .5rem;
-
-$navbar-brand-font-size:            $font-size-lg;
-$nav-link-height:                   $font-size-base * $line-height-base + $nav-link-padding-y * 2;
-$navbar-brand-height:               $navbar-brand-font-size * $line-height-base;
-$navbar-brand-padding-y:            ($nav-link-height - $navbar-brand-height) * .5;
-$navbar-brand-margin-end:           1rem;
-
-$navbar-toggler-padding-y:          .25rem;
-$navbar-toggler-padding-x:          .75rem;
-$navbar-toggler-font-size:          $font-size-lg;
-$navbar-toggler-border-radius:      $btn-border-radius;
-$navbar-toggler-focus-width:        $btn-focus-width;
-$navbar-toggler-transition:         box-shadow .15s ease-in-out;
-
-$navbar-light-color:                rgba(var--#020024emphasis-color-rgb, .65);
-$navbar-light-hover-color:          rgba(var--#020024emphasis-color-rgb, .8);
-$navbar-light-active-color:         rgba(var--#020024emphasis-color-rgb, 1);
-$navbar-light-disabled-color:       rgba(var(--#020024emphasis-color-rgb), .3);
-$navbar-light-icon-color:           rgba($body-color, .75);
-$navbar-light-toggler-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-light-icon-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
-$navbar-light-toggler-border-color: rgba(var(--#020024emphasis-color-rgb), .15);
-$navbar-light-brand-color:          $navbar-light-active-color;
-$navbar-light-brand-hover-color:    $navbar-light-active-color;
-}
-.navbar-light .navbar-nav > li > a:hover {
-  color: rgba(var(--020024emphasis-color-rgb), 0.8);
+  background-color: #cfd474 !important;
 }
 .logo {
   width: 100px;
+  border-radius: 10%;
 }
 
 body {
@@ -46,21 +18,24 @@ body {
   background-attachment: fixed;
 }
 
-footer main {
+main {
   display: flexbox;
   font-style: oblique;
   list-style-position: outside;
   text-align: justify;
   font-size: x-large;
-  margin: 1%;
+  margin: 5%;
 }
 
-footer {
-  box-sizing: border-box;
+#final {
   margin-top: 50px;
-  margin-right: 20px;
-  display: flex;
-  position: relative;
+  margin-right: 100px;
+  display: flexbox;
+  text-align: end;
+  font-family: Monaco, Haettenschweiler, "Arial Narrow Bold", serif;
+  font-size: medium;
+  align-items: end;
+
 }
 
 .titulo {
@@ -102,15 +77,6 @@ footer {
   width: 100%;
   display: flex;
 }
-
-.pie {
-  font-family: Monaco, Haettenschweiler, "Arial Narrow Bold", serif;
-  text-align: end;
-  align-items: end;
-  margin-right: 10%;
-  font-size: medium;
-}
-
 .pie ul {
   font-size: small;
   list-style: none;
@@ -120,6 +86,9 @@ footer {
 @media (max-width: 480px) {
   .encabezado {
     font-size: 100%;
+  }
+  .navbar {
+    text-align: center;
   }
   .logo {
     width: 60px;
@@ -141,14 +110,27 @@ footer {
   }
 }
 
-
+.subtitulositem {
+  background-attachment: fixed;
+  font-size: 65px;
+  position: relative;
+  padding: 40px;
+  margin: 20px;
+  font-family: "montserrat", serif;
+  font-family: "lobster", cursive;
+  font-weight: bolder;
+  text-align: center;
+  align-items: center;
+}
 .TituloCosas {
   font-weight: bolder;
+  font-size: 30px;
 }
 .Planner {
   margin-top: 10px;
   align-items: start;
   text-align: start;
+  justify-content: flex-start;
   font-family: Monaco, Haettenschweiler, "Arial Narrow Bold", serif;
   list-style: none;
 }
@@ -174,3 +156,36 @@ footer {
 }
 
 /*# sourceMappingURL=styles.css.map */
+
+.carousel-conteiner {
+  margin-top: 80px;
+}
+.serviciosletras {
+  font-weight: 1000;
+  color: #717537;
+  font-size: xxx-large;
+  font-family: font-family: "montserrat", serif;
+}
+.serviciostextouno {
+  font-weight: 700;
+  color: #25251a;
+  font-size: larger;
+  font-family: Monaco, Haettenschweiler, "Arial Narrow Bold", serif;
+}
+.serviciostextodos {
+  font-weight: 700;
+  color: #a4ad2f;
+  font-size: larger;
+  font-family: Monaco, Haettenschweiler, "Arial Narrow Bold", serif;
+}
+.serviciostextotres {
+  font-weight: 700;
+  color: #86d430;
+  font-size: larger;
+  font-family: Monaco, Haettenschweiler, "Arial Narrow Bold", serif;
+}
+
+.cajasmuebles {
+  grid-column: auto;
+
+}
