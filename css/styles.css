@@ -108,6 +108,10 @@ main {
     text-align: center;
     width: 100%
   }
+  .contactomain {
+    width: 12px;
+  }
+
 }
 
 .subtitulositem {
@@ -187,5 +191,60 @@ main {
 
 .cajasmuebles {
   grid-column: auto;
+}
 
+
+.form {
+  font-family: Monaco, Haettenschweiler, "Arial Narrow Bold", serif;
+  min-height: 110vh;
+  padding: 40px 45px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 2);
+  border-radius: 20px;
+  width: 550px;
+  margin: auto;
+  background-color: #99b172;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+input , textarea {
+  background-color: #cade90;
+  padding: 20px 55px;
+  margin-bottom: 25px;
+  border: 0;
+  border-radius: 10px;
+}
+::placeholder {
+  color: black;
+  font-weight: bolder;
+  font-family: Monaco, Haettenschweiler, serif;
+  text-align: start;
+
+}
+.enviar {
+  color: black;
+  background-color: #7c8561;
+  border-radius: 15px;
+  padding: 10px 75px;
+  font-weight: bolder;
+  font-family: Monaco, Haettenschweiler, serif;
+}
+.enviar:hover {
+  background-color: #cfd474;
+}
+.imgcontacto {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.face {
+  margin: 10px;
+  width: 100px;
+  border-radius: 15px;
+}
+.insta {
+  margin: 10px;
+  width: 100px;
+  border-radius: 15px;
 }

@@ -41,45 +41,28 @@
                 <a class="nav-link" aria-disabled="true" href="contacto.html">Contacto</a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="..." aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Buscador</button>
-            </form>
           </div>
         </div>
       </nav>
   </header>
-  <main>
-      <h1 class="subtitulos">Contactanos</h1>
-      <form>
-        <fieldset disabled>
-          <legend>Para Saber Mas</legend>
-          <div class="mb-3">
-            <label for="disabledTextInput" class="form-label">Nombre</label>
-            <input type="text" id="disabledTextInput" class="form-control" placeholder="Maria Gonzalez">
+  <main class="contactomain">
+      <h1 class="subtitulositem">Contactanos</h1>
+      <form class="form" autocomplete="off">
+        <nav>
+          <div class="imgcontacto">
+            <a href="https://www.facebook.com/">
+              <img class="face" src="../img/facebook.jpeg" alt="face">
+            </a>
+            <a href="https://www.instagram.com/">
+              <img class="insta" src="../img/insta.jpeg" alt="insta">
+            </a>
           </div>
-          <div class="mb-3">
-            <label for="disabledTextInput" class="form-label">Mail</label>
-            <input type="text" id="disabledTextInput" class="form-control" placeholder="@gmail.com">
-          </div>.
-          <div class="mb-3">
-              <label for="disabledTextInput" class="form-label">REDES</label>
-              <input type="text" id="disabledTextInput" class="form-control" placeholder="@MariaGonzalez">
+          <div class="input-txt">
+            <input type="text" id="name" name="user_name" placeholder="Nombre" />
+            <input type="email" id="mail" name="user_email"  placeholder="@gmail.com"/>
+            <textarea name="Mensaje" id="msg" cols="30" rows="5" placeholder="Mensaje"></textarea>
+            <button class="enviar" type="submit">Enviar</button>
           </div>
-          <div class="mb-3">
-            <label for="disabledTextInput" class="form-label">Dejanos Reseña</label>
-            <input type="text" id="disabledTextInput" class="form-control" placeholder="...">
-          </div>
-          <div class="mb-3">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" disabled>
-              <label class="form-check-label" for="disabledFieldsetCheck">
-                TyC Aceptados.
-              </label>
-            </div>
-          </div>
-          <button type="submit" class="btn btn-primary">Enviar</button>
-        </fieldset>
       </form>
   </main>
   <footer class="container-fluid">
