@@ -37,7 +37,6 @@ main {
   align-items: end;
 
 }
-
 .titulo {
   position: relative;
   padding: 40px;
@@ -61,8 +60,8 @@ main {
   font-family: "montserrat", serif;
   font-family: "lobster", cursive;
   font-weight: bolder;
-  text-align: start;
-  align-items:start
+  text-align: center;
+  align-items:center;
 }
 .texto {
   margin-top: 10px;
@@ -114,6 +113,7 @@ main {
 
 }
 
+// item//
 .subtitulositem {
   background-attachment: fixed;
   font-size: 65px;
@@ -159,7 +159,7 @@ main {
   margin-top: 10px;
 }
 
-/*# sourceMappingURL=styles.css.map */
+// servicios//
 
 .carousel-conteiner {
   margin-top: 80px;
@@ -189,11 +189,7 @@ main {
   font-family: Monaco, Haettenschweiler, "Arial Narrow Bold", serif;
 }
 
-.cajasmuebles {
-  grid-column: auto;
-}
-
-
+///contacto//
 .form {
   font-family: Monaco, Haettenschweiler, "Arial Narrow Bold", serif;
   min-height: 110vh;
@@ -220,7 +216,6 @@ input , textarea {
   font-weight: bolder;
   font-family: Monaco, Haettenschweiler, serif;
   text-align: start;
-
 }
 .enviar {
   color: black;
@@ -247,4 +242,73 @@ input , textarea {
   margin: 10px;
   width: 100px;
   border-radius: 15px;
+}
+
+.gridmain {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1rem;
+  
+}
+.galleryimg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gridmain div {
+  padding: 1rem;
+
+}
+.gridmain div:hover {
+  border: 1px solid #cfd474;
+}
+.grid2 {
+  align-self: flex-start;
+  justify-self: center;
+  font-family: Monaco, Haettenschweiler, serif;
+  font-size: 30px;
+}
+.grid4 {
+  align-self: center;
+  justify-self: flex-end;
+  font-family: Monaco, Haettenschweiler, serif;
+  font-size: 30px;
+}
+.grid6 {
+  align-self: center;
+  justify-self: center;
+  grid-column: 1/4;
+  font-family: Monaco, Haettenschweiler, serif;
+  font-size: 45px;
+}
+.grid7 {
+  grid-column: 1/4;
+  background: #568c1b;
+}
+.grid1 {
+  grid-column: 1/3;
+  align-self: center;
+  background: #568c1b;
+}
+.grid3 {
+  background: #568c1b;
+}
+.grid5 {
+  background: #568c1b;
+}
+.animationimg {
+  animation: zoom 10s infinite;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
