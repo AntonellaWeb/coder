@@ -112,8 +112,6 @@ main {
   }
 
 }
-
-// item//
 .subtitulositem {
   background-attachment: fixed;
   font-size: 65px;
@@ -159,8 +157,6 @@ main {
   margin-top: 10px;
 }
 
-// servicios//
-
 .carousel-conteiner {
   margin-top: 80px;
 }
@@ -189,20 +185,20 @@ main {
   font-family: Monaco, Haettenschweiler, "Arial Narrow Bold", serif;
 }
 
-///contacto//
 .form {
+  background-color: #8d924c;
+  display: flex;
   font-family: Monaco, Haettenschweiler, "Arial Narrow Bold", serif;
-  min-height: 110vh;
+  min-height: 110px;
   padding: 40px 45px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 2);
   border-radius: 20px;
   width: 550px;
   margin: auto;
-  background-color: #99b172;
-  display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
+  background-attachment: fixed;
 }
 input , textarea {
   background-color: #cade90;
@@ -246,9 +242,9 @@ input , textarea {
 
 .gridmain {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
-  gap: 1rem;
-  
+  grid-template-columns: auto;
+  gap: 2rem;
+
 }
 .galleryimg {
   width: 100%;
@@ -280,7 +276,7 @@ input , textarea {
   justify-self: center;
   grid-column: 1/4;
   font-family: Monaco, Haettenschweiler, serif;
-  font-size: 45px;
+  font-size: 35px;
 }
 .grid7 {
   grid-column: 1/4;
