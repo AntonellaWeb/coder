@@ -110,6 +110,11 @@ main {
   .contactomain {
     width: 12px;
   }
+  .form  {
+    width: 350px;
+    min-height: 80px;
+    padding: 20px 25px;
+  }
 
 }
 .subtitulositem {
@@ -198,7 +203,6 @@ main {
   text-align: center;
   align-items: center;
   justify-content: center;
-  background-attachment: fixed;
 }
 input , textarea {
   background-color: #cade90;
@@ -242,9 +246,9 @@ input , textarea {
 
 .gridmain {
   display: grid;
-  grid-template-columns: auto;
-  gap: 2rem;
-
+  grid-template-columns:repeat(3,1fr);
+  grid-template-rows:repeat(auto);
+  gap: 13px;
 }
 .galleryimg {
   width: 100%;
@@ -294,7 +298,7 @@ input , textarea {
   background: #568c1b;
 }
 .animationimg {
-  animation: zoom 10s infinite;
+  animation: zoom 8s infinite;
 }
 
 @keyframes zoom {
@@ -308,3 +312,4 @@ input , textarea {
     transform: scale(1);
   }
 }
+
